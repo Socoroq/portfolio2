@@ -31,14 +31,14 @@
                         line-height: 140%;
                         letter-spacing: 0.02em;
                         margin: 50px 0;
-                        margin-right: 155px;
+                        margin-right: 410px;
 
                     }
 
                     & .button {
                         display: flex;
                         justify-content: flex-end;
-                        margin-right: 60px;
+                        margin: 0;
 
                         & .btn {
                             display: flex;
@@ -65,14 +65,15 @@
                         line-height: 140%;
                         letter-spacing: 0.02em;
                         margin: 50px 0;
-                        margin-left: 125px !important;
+                        margin-right: 150px;
+                        
 
                     }
 
                     & .button {
                         display: flex;
                         justify-content: flex-end;
-                        margin-right: 240px;
+                        margin-right: 170px;
                         align-items: center;
                         & .btn {
                             display: flex;
@@ -382,6 +383,158 @@
     }
 }
 
+@media (max-width: 1399px) {
+
+    .carusel {
+        margin-top: 50px;
+        margin-bottom: 150px;
+
+        & .row {
+            & .text {
+                & .carousel-box {
+
+                    & .h4 {
+                        margin-right: 320px;
+
+                    }
+                    & .button {
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-right: 115px;
+                        align-items: center;
+                        & .btn {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 260px;
+                            height: 68px;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 138.9%;
+                        }
+                    }
+                }
+
+                & .carousel-box-2 {
+                    & .h1 {
+                        font-size: 55px;
+                        line-height: 110% !important;
+                        letter-spacing: 0.02em !important;
+                    }
+
+                    & .h4 {
+                        font-size: 20px;
+                        line-height: 140%;
+                        letter-spacing: 0.02em;
+                        margin: 50px 0;
+                        margin-right: 95px;
+                        
+
+                    }
+
+                    & .button {
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-right: 115px;
+                        align-items: center;
+                        & .btn {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 260px;
+                            height: 68px;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 138.9%;
+                        }
+                    }
+                }
+
+                & .carousel-box-3 {
+                    & .h1 {
+                        font-size: 55px;
+                        line-height: 110% !important;
+                        letter-spacing: 0.02em !important;
+                    }
+
+                    & .h4 {
+                        font-size: 20px;
+                        line-height: 140%;
+                        letter-spacing: 0.02em;
+                        margin: 50px 0;
+                        margin-right: 100px;
+
+                    }
+
+                    & .button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        margin-right: 100px;
+
+                        & .btn {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 260px;
+                            height: 68px;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 138.9%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+
+    .carusel {
+        margin-top: 50px;
+        margin-bottom: 150px;
+
+        & .row {
+            & .text {
+                & .carousel-box {
+                    & .h4 {
+                        margin-right: 145px;
+
+                    }
+
+                    & .button {
+                        margin-right: -10px;
+                    }
+                }
+
+                & .carousel-box-2 {
+                    & .h4 {
+                        
+                        margin-right: 0px;
+                        
+
+                    }
+
+                    & .button {
+                        margin-right: 20px;
+                    }
+                }
+
+                & .carousel-box-3 {
+                    & .h4 {
+                        margin-right: 160px;
+
+                    }
+
+                    & .button {
+                        margin-right: 160px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 991px) {
     .main {
         margin-top: 60px;
@@ -497,7 +650,7 @@
         & .button {
             display: flex;
             justify-content: center !important;
-            margin-right: 20px !important;
+            margin-right: 00px !important;
         }
 
         & .image {

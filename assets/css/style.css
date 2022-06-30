@@ -180,6 +180,7 @@ img {
 
 .header.active {
   background: white;
+  margin-right: 20px;
 }
 
 .header__container {
@@ -257,19 +258,27 @@ img {
   color: #000;
 }
 
-.menu__links:hover {
-  color: #6E9C9F;
-  -webkit-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-}
-
 .menu__links_active {
   font-weight: 700;
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.02em;
+  color: #6E9C9F !important;
+  margin-left: 40px;
+}
+
+.menu__links_active:hover {
+  color: none;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.menu__links:hover {
   color: #6E9C9F;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .menu__to-come-in {
@@ -591,6 +600,7 @@ img {
 }
 
 .carusel .row .text .carousel-box .h4 {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -602,7 +612,6 @@ img {
           align-items: center;
   text-align: right;
   margin: 50px 0;
-  margin-right: 255px;
 }
 
 .carusel .row .text .carousel-box .button {
@@ -612,38 +621,44 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 255px;
+  margin-right: 125px;
 }
 
-.carusel .row .text .carousel-box .button .button {
-  font-size: calc(12px + 5 * ((100vw - 320px) / 1300));
-  padding: 15px 30px;
-  white-space: nowrap;
-  border-radius: 0px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  position: relative;
-  top: 0;
+.carusel .row .text .carousel-box .button span {
+  color: #6E9C9F;
+  font-size: calc(17px + 10 * ((100vw - 320px) / 1300));
 }
 
 .carusel .row .text .carousel-box .button .btn {
   background: #6E9C9F;
   color: #fff;
-  -webkit-box-shadow: 0 5px 0 rgba(0, 0, 0, 0.507);
-          box-shadow: 0 5px 0 rgba(0, 0, 0, 0.507);
-  -webkit-transition-duration: 0.3s;
-       -o-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  font-size: calc(12px + 5 * ((100vw - 320px) / 1300));
+  padding: 15px 30px;
+  white-space: nowrap;
+  border-radius: 0;
 }
 
 .carusel .row .text .carousel-box .button .btn:hover {
-  top: 2px;
   background: #509498;
-  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.507);
-          box-shadow: 0 3px 0 rgba(0, 0, 0, 0.507);
-  -webkit-transition-duration: 0.5s ease;
-       -o-transition-duration: 0.5s ease;
-          transition-duration: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.carusel .row .text .carousel-box-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .carusel .row .text .carousel-box-2 .h1 {
@@ -668,7 +683,6 @@ img {
           align-items: center;
   text-align: right;
   margin: 50px 0;
-  margin-right: 250px;
 }
 
 .carusel .row .text .carousel-box-2 .button {
@@ -678,7 +692,6 @@ img {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-right: 190px;
 }
 
 .carusel .row .text .carousel-box-2 .button span {
@@ -1463,7 +1476,7 @@ img {
     line-height: 140%;
     letter-spacing: 0.02em;
     margin: 50px 0;
-    margin-right: 155px;
+    margin-right: 410px;
   }
   .carusel .row .text .carousel-box .button {
     display: -webkit-box;
@@ -1472,7 +1485,7 @@ img {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: 60px;
+    margin: 0;
   }
   .carusel .row .text .carousel-box .button .btn {
     display: -webkit-box;
@@ -1500,7 +1513,7 @@ img {
     line-height: 140%;
     letter-spacing: 0.02em;
     margin: 50px 0;
-    margin-left: 125px !important;
+    margin-right: 150px;
   }
   .carusel .row .text .carousel-box-2 .button {
     display: -webkit-box;
@@ -1509,7 +1522,7 @@ img {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    margin-right: 240px;
+    margin-right: 170px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1814,6 +1827,149 @@ img {
   }
 }
 
+@media (max-width: 1399px) {
+  .carusel {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .carusel .row .text .carousel-box .h4 {
+    margin-right: 320px;
+  }
+  .carusel .row .text .carousel-box .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 115px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .carusel .row .text .carousel-box .button .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 260px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+  }
+  .carusel .row .text .carousel-box-2 .h1 {
+    font-size: 55px;
+    line-height: 110% !important;
+    letter-spacing: 0.02em !important;
+  }
+  .carusel .row .text .carousel-box-2 .h4 {
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    margin: 50px 0;
+    margin-right: 95px;
+  }
+  .carusel .row .text .carousel-box-2 .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 115px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .carusel .row .text .carousel-box-2 .button .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 260px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+  }
+  .carusel .row .text .carousel-box-3 .h1 {
+    font-size: 55px;
+    line-height: 110% !important;
+    letter-spacing: 0.02em !important;
+  }
+  .carusel .row .text .carousel-box-3 .h4 {
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    margin: 50px 0;
+    margin-right: 100px;
+  }
+  .carusel .row .text .carousel-box-3 .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 100px;
+  }
+  .carusel .row .text .carousel-box-3 .button .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 260px;
+    height: 68px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .carusel {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .carusel .row .text .carousel-box .h4 {
+    margin-right: 145px;
+  }
+  .carusel .row .text .carousel-box .button {
+    margin-right: -10px;
+  }
+  .carusel .row .text .carousel-box-2 .h4 {
+    margin-right: 0px;
+  }
+  .carusel .row .text .carousel-box-2 .button {
+    margin-right: 20px;
+  }
+  .carusel .row .text .carousel-box-3 .h4 {
+    margin-right: 160px;
+  }
+  .carusel .row .text .carousel-box-3 .button {
+    margin-right: 160px;
+  }
+}
+
 @media (max-width: 991px) {
   .main {
     margin-top: 60px;
@@ -1924,7 +2080,7 @@ img {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    margin-right: 20px !important;
+    margin-right: 00px !important;
   }
   .carusel .image {
     display: -webkit-box;
