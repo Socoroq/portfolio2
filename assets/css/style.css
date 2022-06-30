@@ -1835,34 +1835,6 @@ img {
   .carusel .row .text .carousel-box .h4 {
     margin-right: 320px;
   }
-  .carusel .row .text .carousel-box .button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin-right: 115px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .carusel .row .text .carousel-box .button .btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 260px;
-    height: 68px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 138.9%;
-  }
   .carusel .row .text .carousel-box-2 .h1 {
     font-size: 55px;
     line-height: 110% !important;
